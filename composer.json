@@ -1,0 +1,16 @@
+{
+    "name": "andrevlopes16/jaragua",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Andre V Lopes",
+            "email": "suporte@andrevlopes.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "phpmailer/phpmailer":"5.2.22",
+        "slim/slim":"2.0",
+        "rain/raintpl":"3.0.0"
+    }
+}
