@@ -7,10 +7,21 @@
             "email": "suporte@andrevlopes.com"
         }
     ],
+     "autoload": {
+        "psr-4": {
+            "Avl\\": "vendor\\avl\\php-classes\\src"
+        },
+        "files": [
+
+            "vendor/avl/php-classes/src/config.php"
+
+        ]
+    },
     "minimum-stability": "dev",
-    "require": {
+        "require": {
         "phpmailer/phpmailer":"5.2.22",
         "slim/slim":"2.0",
-        "rain/raintpl":"3.0.0"
+        "rain/raintpl":"3.0.0",
+        "coffeecode/datalayer": "1.1.2"
     }
 }
